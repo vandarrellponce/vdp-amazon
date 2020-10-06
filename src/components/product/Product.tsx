@@ -1,4 +1,5 @@
 import React from 'react'
+import { useStateValue } from '../../state/StateProvider'
 import './Product.css'
 
 interface Props {
@@ -10,6 +11,21 @@ interface Props {
 }
 
 const Product: React.FC<Props> = (props) => {
+	//STATE
+	const [_, dispatch] = useStateValue()
+	// METHODS
+	const addToBasket = () => {
+		dispatch({
+			type: 'ADD_TO_BASKET',
+			payload: {
+				id: props.id,
+				title: props.title,
+				price: props.price,
+				rating: props.rating,
+				imageUrl: props.imageUrl,
+			},
+		})
+	}
 	return (
 		<div className="product">
 			<div className="product__info">
@@ -38,7 +54,9 @@ const Product: React.FC<Props> = (props) => {
 					alt="product"
 				/>
 			</div>
-			<button className="product__button">Add to Basket</button>
+			<button onClick={addToBasket} className="product__button">
+				Add to Basket
+			</button>
 		</div>
 	)
 }
