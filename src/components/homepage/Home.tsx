@@ -13,21 +13,21 @@ const Home = () => {
 			/>
 			<div className="home__row">
 				<Product
-					id="12345"
+					id="1"
 					title="The Lean Startup"
 					price={11.96}
 					rating={5}
 					imageUrl="https://media.officedepot.com/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_1665,q_auto,w_1250/c_pad,h_1665,w_1250/v1/products/8317200/8317200_p_echo_plus_2_gen_charcoal?pgw=1&pgwact=1"
 				/>
 				<Product
-					id="12345"
+					id="2"
 					title="The Lean Startup"
 					price={11.96}
 					rating={5}
 					imageUrl="https://media.officedepot.com/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_1665,q_auto,w_1250/c_pad,h_1665,w_1250/v1/products/8317200/8317200_p_echo_plus_2_gen_charcoal?pgw=1&pgwact=1"
 				/>
 				<Product
-					id="12345"
+					id="3"
 					title="The Lean Startup"
 					price={11.96}
 					rating={5}
