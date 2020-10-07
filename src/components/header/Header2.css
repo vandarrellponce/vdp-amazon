@@ -1,0 +1,47 @@
+.header {
+	background-color: #363432;
+	display: flex;
+	align-items: center;
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	height: 65px;
+}
+.header__logo {
+	width: 100px;
+	margin-top: 18px;
+	margin-left: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+	object-fit: contain;
+}
+
+.header__container {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__leftIconsContainer {
+	margin-left: 80px;
+	width: 400px;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+
+	border-radius: 5px;
+}
+.header__rightIconsContainer {
+	width: 200px;
+	justify-content: space-around;
+	display: flex;
+}
+
+.header__icontextContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3px;
+}
