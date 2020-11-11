@@ -1,6 +1,4 @@
 ![logo](https://github.com/vandarrellponce/myportfoliowebsite/blob/main/public/favicon-32x32.png?raw=true)
-</br></br>
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
